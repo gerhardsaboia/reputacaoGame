@@ -1,0 +1,16 @@
+include<iostream>
+using namespace std;
+int main(){
+int pontos;
+cout<<"Entre com a sua quantidade de pontos";
+cin>>pontos;
+if(pontos<300.00){
+cout<<você é NEUTRO;
+}else if(pontos>=3.000 && pontos<6.000){
+cout<<"Você é RESPEITADO";
+}else{
+cout<<"você é HONRADO";
+}
+
+
+}
